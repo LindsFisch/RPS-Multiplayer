@@ -1,0 +1,22 @@
+body {
+	background: #93eDD4;
+	color: white;
+}
+
+
+#chatbox {
+	width: 50%;
+	background: white;
+	margin: 5px auto;
+	color: black;
+	border: 1px solid #3CBAC8;
+}
+
+#chat-box {
+	width: 60%;
+	height: 200px;
+	background: white;
+	color: #F9CB8F;
+	margin: 5px auto;
+	border: 1px solid #3CBAC8;
+}
