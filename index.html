@@ -19,20 +19,33 @@
 		<form>
 			Your Name:
 			<input type="text" name="playername" id="player-name">
-			<input type="submit" value="Submit" id="name-submit" class="btn btn-success">
+			<input type="submit" value="Submit" id="name-submit">
 		</form>
 	</section>
 	<div class="container-fluid" id="winbox">
-		<div id="player-one"></div>
+		<div id="player-one">
+			<h2 id="one-name">Waiting for Player 1</h2>
+			<h4 data-type="rock" class="game-choice-one">Rock</h4>
+			<h4 data-type="paper" class="game-choice-one">Paper</h4>
+			<h4 data-type="scissors" class="game-choice-one">Scissors</h4>
+			<p>Wins: <span id="pOneWin">0</span> Loss: <span id="pOneLoss">0</span></p>
+		</div>
 		<div id="win-zone"></div>
-		<div id="player-two"></div>
+		<div id="player-two">
+			<h2 id="two-name">Waiting for Player 2</h2>
+			<h4 data-type="rock" class="game-choice-two">Rock</h4>
+			<h4 data-type="paper" class="game-choice-two">Paper</h4>
+			<h4 data-type="scissors" class="game-choice-two">Scissors</h4>
+			<p>Wins: <span id="pTwoWin">0</span> Loss: <span id="pTwoLoss">0</span></p>
+		</div>
 	</div>
 	<section class="chat">
 		<div id="chat-box"></div>
-		<form>
+		<form class="chat">
 			<input type="text" name="chatbox" id="chatbox">
-			<input type="submit" value="Submit" id="chat-submit" class="btn btn-success">
+			<input type="submit" value="Submit" id="chat-submit">
 		</form>
 	</section>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
 </body>
 </html
