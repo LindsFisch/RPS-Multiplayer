@@ -7,6 +7,9 @@ body {
 	margin: 5px auto;
 }
 
+#player-name{
+	color: black;
+}
 
 #chatbox {
 	width: 50%;
