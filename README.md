@@ -1,3 +1,4 @@
 # RPS-Multiplayer
-HW # 7
+
+Unfinished rps multiplayer game using JQuery, JS, and Firebase.
  
